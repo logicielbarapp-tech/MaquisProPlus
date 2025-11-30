@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "MaquisPro+",
+    "slug": "maquispro-plus",
+    "version": "1.0.1",
+    "sdkVersion": "52.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#19386A"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "platforms": ["android", "ios", "web"],
+    "android": {
+      "package": "com.maquisproplus.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#19386A"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.maquisproplus.app",
+      "buildNumber": "1"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2fedbe69-2b28-46fa-8c92-669e59733f53"
+      }
+    }
+  }
+}
